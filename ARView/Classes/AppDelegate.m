@@ -82,6 +82,11 @@
     self.viewController.invokeString = invokeString;
     self.viewController.view.frame = viewBounds;
     
+    self.viewController.view.backgroundColor = [UIColor clearColor];
+    self.viewController.view.opaque = NO;
+    self.viewController.webView.backgroundColor = [UIColor clearColor];
+    self.viewController.webView.opaque = NO;
+    
     // check whether the current orientation is supported: if it is, keep it, rather than forcing a rotation
     BOOL forceStartupRotation = YES;
     UIDeviceOrientation curDevOrientation = [[UIDevice currentDevice] orientation];

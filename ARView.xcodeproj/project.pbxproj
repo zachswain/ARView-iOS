@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2A9234A153F5EA70051E150 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A92349153F5EA70051E150 /* icon@2x.png */; };
 		D2E9ABA5153D9AA300D69AAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E9ABA4153D9AA300D69AAA /* Foundation.framework */; };
 		D2E9ABA7153D9AA300D69AAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E9ABA6153D9AA300D69AAA /* UIKit.framework */; };
 		D2E9ABA9153D9AA300D69AAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E9ABA8153D9AA300D69AAA /* CoreGraphics.framework */; };
@@ -38,9 +39,15 @@
 		D2E9ABF0153D9AA300D69AAA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E9ABEF153D9AA300D69AAA /* MainViewController.m */; };
 		D2E9ABF2153D9AA300D69AAA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2E9ABF1153D9AA300D69AAA /* MainViewController.xib */; };
 		D2E9ABF6153D9AA300D69AAA /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = D2E9ABF5153D9AA300D69AAA /* verify.sh */; };
+		D2E9ABFD153D9B0700D69AAA /* www in Resources */ = {isa = PBXBuildFile; fileRef = D2E9ABFC153D9B0700D69AAA /* www */; };
+		D2E9ABFF153D9F6A00D69AAA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E9ABFE153D9F6A00D69AAA /* icon.png */; };
+		D2E9AC01153D9F7400D69AAA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E9AC00153D9F7400D69AAA /* Default.png */; };
+		D2E9AC03153D9F7D00D69AAA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E9AC02153D9F7D00D69AAA /* Default@2x.png */; };
+		D2E9AC05153D9F9C00D69AAA /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E9AC04153D9F9C00D69AAA /* Default-Landscape~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2A92349153F5EA70051E150 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		D2E9ABA0153D9AA300D69AAA /* ARView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E9ABA4153D9AA300D69AAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2E9ABA6153D9AA300D69AAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -55,10 +62,10 @@
 		D2E9ABB8153D9AA300D69AAA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D2E9ABBA153D9AA300D69AAA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D2E9ABBC153D9AA300D69AAA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		D2E9ABC0153D9AA300D69AAA /* ARView-Info.plist */ = {isa = PBXFileReference; path = "ARView-Info.plist"; sourceTree = "<group>"; };
+		D2E9ABC0153D9AA300D69AAA /* ARView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARView-Info.plist"; sourceTree = "<group>"; };
 		D2E9ABC2153D9AA300D69AAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2E9ABC4153D9AA300D69AAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D2E9ABC6153D9AA300D69AAA /* ARView-Prefix.pch */ = {isa = PBXFileReference; path = "ARView-Prefix.pch"; sourceTree = "<group>"; };
+		D2E9ABC6153D9AA300D69AAA /* ARView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARView-Prefix.pch"; sourceTree = "<group>"; };
 		D2E9ABC7153D9AA300D69AAA /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		D2E9ABCC153D9AA300D69AAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D2E9ABD0153D9AA300D69AAA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +78,18 @@
 		D2E9ABE4153D9AA300D69AAA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		D2E9ABE6153D9AA300D69AAA /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		D2E9ABE8153D9AA300D69AAA /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		D2E9ABEB153D9AA300D69AAA /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		D2E9ABEB153D9AA300D69AAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		D2E9ABEC153D9AA300D69AAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		D2E9ABEE153D9AA300D69AAA /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		D2E9ABEE153D9AA300D69AAA /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		D2E9ABEF153D9AA300D69AAA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		D2E9ABF1153D9AA300D69AAA /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		D2E9ABF4153D9AA300D69AAA /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		D2E9ABF4153D9AA300D69AAA /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		D2E9ABF5153D9AA300D69AAA /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		D2E9ABFC153D9B0700D69AAA /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		D2E9ABFE153D9F6A00D69AAA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D2E9AC00153D9F7400D69AAA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D2E9AC02153D9F7D00D69AAA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D2E9AC04153D9F9C00D69AAA /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,12 @@
 		D2E9AB92153D9AA200D69AAA = {
 			isa = PBXGroup;
 			children = (
+				D2A92349153F5EA70051E150 /* icon@2x.png */,
+				D2E9AC04153D9F9C00D69AAA /* Default-Landscape~ipad.png */,
+				D2E9AC02153D9F7D00D69AAA /* Default@2x.png */,
+				D2E9AC00153D9F7400D69AAA /* Default.png */,
+				D2E9ABFE153D9F6A00D69AAA /* icon.png */,
+				D2E9ABFC153D9B0700D69AAA /* www */,
 				D2E9ABBE153D9AA300D69AAA /* ARView */,
 				D2E9ABA3153D9AA300D69AAA /* Frameworks */,
 				D2E9ABA1153D9AA300D69AAA /* Products */,
@@ -329,6 +347,12 @@
 				D2E9ABE9153D9AA300D69AAA /* Cordova.plist in Resources */,
 				D2E9ABF2153D9AA300D69AAA /* MainViewController.xib in Resources */,
 				D2E9ABF6153D9AA300D69AAA /* verify.sh in Resources */,
+				D2E9ABFD153D9B0700D69AAA /* www in Resources */,
+				D2E9ABFF153D9F6A00D69AAA /* icon.png in Resources */,
+				D2E9AC01153D9F7400D69AAA /* Default.png in Resources */,
+				D2E9AC03153D9F7D00D69AAA /* Default@2x.png in Resources */,
+				D2E9AC05153D9F9C00D69AAA /* Default-Landscape~ipad.png in Resources */,
+				D2A9234A153F5EA70051E150 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +566,7 @@
 				D2E9ABFB153D9AA300D69AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

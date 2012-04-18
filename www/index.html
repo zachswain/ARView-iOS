@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- meta name="viewport" content="width=device-width, initial-scale=1" -->
+<link rel="stylesheet" href="lib/sencha/sencha-touch.css" />
+<link rel="stylesheet" href="css/ARView.css" /> 
+<script src="lib/sencha/sencha-touch.js"></script>
+<script src="lib/phonegap/cordova-1.6.0.js" type="text/javascript"></script>
+
+<!-- script src="plugins/OrientationPlugin.js" type="text/javascript"></script>
+<script src="plugins/UserDataPlugin.js" type="text/javascript"></script -->
+
+<script src="js/HUD.js" type="text/javascript"></script>
+<script src="js/PhoneGapEvents.js" type="text/javascript"></script>
+<script src="js/POISet.js" type="text/javascript"></script>
+<script src="js/POI.js" type="text/javascript"></script>
+<script src="js/latlon.js" type="text/javascript"></script>
+<script src="js/global_functions.js" type="text/javascript"></script>
+<script src="js/DataSets.js" type="text/javascript"></script>
+<script src="js/Base64.js" type="text/javascript"></script>
+    
+<script src="index.js" type="text/javascript"></script>    
+    
+<script src="app/views/CompassPanel.js" type="text/javascript"></script>
+<script src="app/views/MainOverlayPanel.js" type="text/javascript"></script>
+<script src="app/views/panels/ToolbarPanel.js" type="text/javascript"></script>
+<script src="app/views/Main.js" type="text/javascript"></script>
+<script src="app/views/Viewport.js" type="text/javascript"></script>
+
+<script>
+    if( !Ext.is.Desktop ) {
+        document.addEventListener("deviceready", deviceReady, false);
+    } else {
+        deviceReady();
+    }
+</script>
+</head>
+<body>
+</body>
+</html>
